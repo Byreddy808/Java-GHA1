@@ -24,7 +24,7 @@ jobs:
                 echo "Repository: $GITHUB_REPOSITORY"
                 echo "Branch: $GITHUB_REF_NAME"
                 echo "Actor: $GITHUB_ACTOR"
-                echo "Runner: $GITHUB_OS"
+                echo "Runner: $RUNNER_OS"
                 java -version
                 mvn -version
             

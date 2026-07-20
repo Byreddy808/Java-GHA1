@@ -5,7 +5,7 @@ public class Application {
     public static void main(String[] args) {
 
         System.out.println("======================================");
-        System.out.println("GitHub Actions Java CI Demo");
+        System.out.println("GitHub Actions Java CI Demos");
         System.out.println("======================================");
 
         GreetingService service = new GreetingService();

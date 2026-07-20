@@ -2,7 +2,7 @@ name: Java Ci Pipeline
 
 on:
     push:
-        branches:
+        branch:
             - main
 jobs:
     build-java:
